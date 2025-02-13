@@ -1,3 +1,29 @@
-h1{background-color: beige;
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr;
 }
-body{background-color: azure;}
+}
+.grid-container p {
+    background-color:lightgreen;
+    grid-column: span 1;
+    border:2px solid antiquewhite;
+    padding: 10px;
+}   
+
+nav{
+    background-color: black;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    padding:10px;
+    color:white
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: ebrima;
+}
